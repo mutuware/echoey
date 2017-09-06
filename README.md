@@ -23,3 +23,5 @@ Response:
 
 { 'location': 'leith', 'condition': 'sunshine' }
 
+
+Note that currently all data is transient. So setup should be saved in a script to run each time the server is created.
