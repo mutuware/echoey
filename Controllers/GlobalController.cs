@@ -13,15 +13,16 @@ namespace Echoey.Controllers
             _repository = routesRepository;
         }
 
-        [HttpGet]
         [Route("{*url}")]
         public async Task<IActionResult> Get(string url)
         {
-            var verb = "GET";
-            var route = await _repository.Match("/" + url, verb);
-            Console.WriteLine($"***matched route: {url},{verb}");
-            Console.WriteLine($"***matched route: {route}");
-            return Ok(route.Response);
+            var verb = HttpContext.Request.Method;
+            var route = await _repository.Match(url, verb);
+
+            if (route == null)
+                return NotFound();
+            else
+                return Ok(route.Response);
         }
     }
 }
