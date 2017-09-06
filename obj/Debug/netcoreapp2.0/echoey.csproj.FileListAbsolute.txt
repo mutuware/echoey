@@ -1,0 +1,10 @@
+C:\Dev\echoey\obj\Debug\netcoreapp2.0\echoey.csproj.CoreCompileInputs.cache
+C:\Dev\echoey\obj\Debug\netcoreapp2.0\echoey.AssemblyInfoInputs.cache
+C:\Dev\echoey\obj\Debug\netcoreapp2.0\echoey.AssemblyInfo.cs
+C:\Dev\echoey\bin\Debug\netcoreapp2.0\echoey.deps.json
+C:\Dev\echoey\bin\Debug\netcoreapp2.0\echoey.runtimeconfig.json
+C:\Dev\echoey\bin\Debug\netcoreapp2.0\echoey.runtimeconfig.dev.json
+C:\Dev\echoey\bin\Debug\netcoreapp2.0\echoey.dll
+C:\Dev\echoey\bin\Debug\netcoreapp2.0\echoey.pdb
+C:\Dev\echoey\obj\Debug\netcoreapp2.0\echoey.dll
+C:\Dev\echoey\obj\Debug\netcoreapp2.0\echoey.pdb
